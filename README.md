@@ -27,6 +27,8 @@ In this exercise, I reviewed existing firewall settings and created a temporary 
 
 From the taskbar, click the **Windows Start** icon and search for **Windows Defender Firewall with Advanced Security**, then open it from the Start menu.
 
+![Windows Defender Firewall with Advanced Security console](screenshots/firewall-console.png)
+
 ---
 
 In the left pane, review the following sections:
@@ -51,33 +53,52 @@ Review details such as:
 - local port
 - remote port
 
----
-
-To create a new firewall rule, select **New Rule** from the **Actions** pane on the right side of the window.
-
-You can create rules based on:
-- program
-- port
-- predefined settings
-- custom settings
+![Inbound Rules view](screenshots/inbound-rules.png)
 
 ---
 
-Choose the rule type that best fits the scenario. For example, a **Port** rule can be used to allow or block traffic on a specific TCP or UDP port.
+To create a new firewall rule, select **New Rule** from the **Actions** pane or menu.
 
-Follow the wizard to configure:
-- whether the rule applies to **TCP** or **UDP**
-- specific local ports
-- whether to **allow** or **block** the connection
-- which profiles apply:
-  - **Domain**
-  - **Private**
-  - **Public**
-- a name and optional description for the rule
+![New Rule menu option](screenshots/new-rule-menu.png)
+
+---
+
+For this lab, select **Port** as the rule type.
+
+![Rule Type - Port selected](screenshots/rule-type-port.png)
+
+---
+
+Under **Protocol and Ports**, select **TCP** and enter **8080** as the specific local port.
+
+![Protocol and Ports step](screenshots/protocol-and-ports.png)
+
+---
+
+Under **Action**, select **Block the connection**.
+
+![Action step](screenshots/action-step.png)
+
+---
+
+Under **Profile**, apply the rule to:
+- **Domain**
+- **Private**
+- **Public**
+
+![Profile step](screenshots/profile-step.png)
+
+---
+
+Enter a name for the rule. For this lab, I used **Block TCP 8080 Test Rule**.
+
+![Name step](screenshots/name-step.png)
 
 ---
 
 After completing the wizard, review the newly created rule in the firewall console to confirm that it appears as expected and is enabled.
+
+![Completed firewall rule](screenshots/completed-rule.png)
 
 ---
 
@@ -96,9 +117,8 @@ When reviewing or creating firewall rules, I focused on the following items:
 - **Protocol and Ports** to identify exactly what traffic the rule applied to
 - **Profiles** to control where the rule would be enforced
 - **Enabled Status** to verify that the rule was active
-- For demonstration purposes, I created a temporary test rule named **Block TCP 8080 Test Rule**, captured screenshots of the configuration process, and removed the rule after completing the lab.
 
-These details help ensure that firewall rules are applied intentionally and support a more secure system configuration.
+For demonstration purposes, I created a temporary test rule named **Block TCP 8080 Test Rule**, captured screenshots of the configuration process, and removed the rule after completing the lab.
 
 ## Key Takeaways
 - Windows Defender Firewall helps control inbound and outbound traffic on a host.
