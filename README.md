@@ -12,7 +12,7 @@ Use Windows Defender Firewall with Advanced Security to review and configure fir
 ## Lab Description
 This lab focuses on using Windows Defender Firewall with Advanced Security to review and configure firewall rules on a Windows system. Host-based firewalls are an important part of system security because they help control what traffic is allowed to enter or leave a device.
 
-In this exercise, I reviewed existing firewall settings and created or modified rules to better understand how Windows Defender Firewall can be used to manage network access, reduce unnecessary exposure, and support a more secure system configuration.
+In this exercise, I reviewed existing firewall settings and created a temporary inbound rule to block TCP port 8080 across the Domain, Private, and Public profiles in order to better understand how Windows Defender Firewall can be used to manage network access, reduce unnecessary exposure, and support system hardening.
 
 ## Skills Demonstrated
 - Navigating Windows Defender Firewall with Advanced Security
@@ -96,6 +96,7 @@ When reviewing or creating firewall rules, I focused on the following items:
 - **Protocol and Ports** to identify exactly what traffic the rule applied to
 - **Profiles** to control where the rule would be enforced
 - **Enabled Status** to verify that the rule was active
+- For demonstration purposes, I created a temporary test rule named **Block TCP 8080 Test Rule**, captured screenshots of the configuration process, and removed the rule after completing the lab.
 
 These details help ensure that firewall rules are applied intentionally and support a more secure system configuration.
 
