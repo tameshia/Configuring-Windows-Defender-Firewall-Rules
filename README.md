@@ -4,12 +4,10 @@
 Use Windows Defender Firewall with Advanced Security to review and configure firewall rules that help control inbound and outbound network traffic on a Windows system.
 
 ## Tools Used
-- Windows Server 2019
 - Windows Defender Firewall with Advanced Security
-- Server Manager
 
 ## Environment Used
-- Windows Server 2019
+- Windows 11 Pro
 
 ## Lab Description
 This lab focuses on using Windows Defender Firewall with Advanced Security to review and configure firewall rules on a Windows system. Host-based firewalls are an important part of system security because they help control what traffic is allowed to enter or leave a device.
