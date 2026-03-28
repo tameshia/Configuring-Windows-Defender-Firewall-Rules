@@ -37,7 +37,7 @@ In the left pane, review the following sections:
 - **Connection Security Rules**
 - **Monitoring**
 
-These sections provide visibility into how traffic is being filtered and what rules are currently active on the system.
+These sections provide visibility into how network traffic is being filtered and what firewall rules are currently active on the system.
 
 ---
 
@@ -57,7 +57,7 @@ Review details such as:
 
 ---
 
-To create a new firewall rule, select **New Rule** from the **Actions** pane or menu. For this lab, I used **TCP port 8080**, a commonly used alternate web port, as a temporary test port to demonstrate how an inbound firewall rule can be configured and reviewed in Windows Defender Firewall.
+To create a new firewall rule, select **New Rule** from the **Actions** pane or menu.
 
 ![New Rule menu option](screenshots/new-rule-menu.png)
 
@@ -69,7 +69,7 @@ For this lab, select **Port** as the rule type.
 
 ---
 
-Under **Protocol and Ports**, select **TCP** and enter **8080** as the specific local port.
+Under **Protocol and Ports**, select **TCP** and enter **8080** as the specific local port. For this lab, I used **TCP port 8080**, a commonly used alternate web port, as a temporary test port to demonstrate how an inbound firewall rule can be configured and reviewed in Windows Defender Firewall.
 
 ![Protocol and Ports step](screenshots/protocol-and-ports.png)
 
