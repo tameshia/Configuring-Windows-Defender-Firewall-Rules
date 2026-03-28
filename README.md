@@ -12,7 +12,7 @@ Use Windows Defender Firewall with Advanced Security to review and configure fir
 ## Lab Description
 This lab focuses on using Windows Defender Firewall with Advanced Security to review and configure firewall rules on a Windows system. Host-based firewalls are an important part of system security because they help control what traffic is allowed to enter or leave a device.
 
-In this exercise, I reviewed existing firewall settings and created or modified rules to better understand how Windows Defender Firewall can be used to manage network access, reduce unnecessary exposure, and support system hardening.
+In this exercise, I reviewed existing firewall settings and created or modified rules to better understand how Windows Defender Firewall can be used to manage network access, reduce unnecessary exposure, and support a more secure system configuration.
 
 ## Skills Demonstrated
 - Navigating Windows Defender Firewall with Advanced Security
@@ -25,9 +25,7 @@ In this exercise, I reviewed existing firewall settings and created or modified 
 
 ---
 
-From the taskbar, click the **Windows Start** icon, then open **Windows Defender Firewall with Advanced Security**.
-
-> You can also open it by searching for **Windows Defender Firewall with Advanced Security** from the Start Menu.
+From the taskbar, click the **Windows Start** icon and search for **Windows Defender Firewall with Advanced Security**, then open it from the Start menu.
 
 ---
 
