@@ -57,7 +57,7 @@ Review details such as:
 
 ---
 
-To create a new firewall rule, select **New Rule** from the **Actions** pane or menu.
+To create a new firewall rule, select **New Rule** from the **Actions** pane or menu. For this lab, I used **TCP port 8080**, a commonly used alternate web port, as a temporary test port to demonstrate how an inbound firewall rule can be configured and reviewed in Windows Defender Firewall.
 
 ![New Rule menu option](screenshots/new-rule-menu.png)
 
