@@ -27,7 +27,7 @@ In this exercise, I reviewed existing firewall settings and created or modified 
 
 From the taskbar, click the **Windows Start** icon, then open **Windows Defender Firewall with Advanced Security**.
 
-> You can also open it from **Server Manager > Tools > Windows Defender Firewall with Advanced Security**.
+> You can also open it by searching for **Windows Defender Firewall with Advanced Security** from the Start Menu.
 
 ---
 
