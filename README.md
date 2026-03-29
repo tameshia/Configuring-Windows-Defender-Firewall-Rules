@@ -128,3 +128,5 @@ For demonstration purposes, I created a temporary test rule named **Block TCP 80
 
 ## Why This Matters
 Knowing how to review and configure Windows Defender Firewall rules is a useful foundational skill in IT and cybersecurity. System administrators and security professionals use host-based firewalls to limit access, reduce attack surface, and better protect systems from unauthorized or unnecessary network communication.
+
+[⬅ Back to Main README](https://github.com/tameshia/Cybersecurity-Labs) | [⏭ Next Lab →](https://github.com/tameshia/Analyzing-DNS-and-TCP-Traffic-with-Wireshark)
